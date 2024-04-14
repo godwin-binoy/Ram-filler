@@ -10,3 +10,5 @@ A simple Python program that can completely fill your ram within seconds.
 
 
 The program will crash after filling ram.
+
+Author: https://github.com/Godwin-Binoy 
