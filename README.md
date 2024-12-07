@@ -2,7 +2,7 @@
 
 Ram Filler is a Python program designed to intentionally fill the system's RAM until it crashes. It serves as a demonstration of how resource-intensive loops can impact a system's performance. This tool should only be used for educational or experimental purposes on systems where you can safely handle a crash.
 
----
+
 
 ## How It Works
 
@@ -30,7 +30,9 @@ The script continuously doubles the size of a string in an infinite loop. This r
        data += data
    ```
 
----
+## Requirements
+
+- Python 3
 
 ## Usage Instructions
 
@@ -49,20 +51,14 @@ The script continuously doubles the size of a string in an infinite loop. This r
 
    > **Note:** Save all work and close unnecessary programs before running the script.
 
----
+
 
 ## Use Cases
 
 - **Educational Purposes**: Learn how memory usage works and the impact of infinite loops.
 - **System Testing**: Test how well a system handles memory overloads (e.g., for debugging or stress testing).
 
----
 
-## Requirements
-
-- Python 3
-
----
 
 ## Best Practices
 
@@ -70,9 +66,7 @@ The script continuously doubles the size of a string in an infinite loop. This r
 2. Ensure no critical work is open on the system.
 3. Monitor system resources while running the script to observe its behavior.
 
-## ⚠️ Disclaimer
 
-This program is designed to crash the system by consuming all available RAM. Use it **at your own risk**. Only run it on systems where a crash will not result in data loss or other consequences. The creator of this repository is not responsible for any damage caused by the misuse of this program.
 
 ## Contributing
 
@@ -93,23 +87,30 @@ Contributions are welcome! If you have ideas to improve this project or add addi
    ```
 5. Open a pull request.
 
----
+
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
+
 
 ## Acknowledgements
 
 - Inspired by the need to understand memory consumption behavior in programming.
 
-## Author 
 
-https://github.com/godwin-binoy
+
+## ⚠️ Disclaimer
+
+This program is designed to crash the system by consuming all available RAM. Use it **at your own risk**. Only run it on systems where a crash will not result in data loss or other consequences. The creator of this repository is not responsible for any damage caused by the misuse of this program.
 
 ## Warning
 
 This program is highly destructive by design. Do not use it on production systems or devices with critical data.
 
+## Author 
+
+https://github.com/godwin-binoy
+
+---
